@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloHttp", "src\HelloHttp.csproj", "{05E56CDB-7E33-41D1-9562-0B43B682F2C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{2FDEE6C4-00FA-4659-9926-ADF788803581}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		generate-ssl.ps1 = generate-ssl.ps1
+		NuGet.config = NuGet.config
+		README.md = README.md
+		run.cmd = run.cmd
+		run.ps1 = run.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05E56CDB-7E33-41D1-9562-0B43B682F2C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E56CDB-7E33-41D1-9562-0B43B682F2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E56CDB-7E33-41D1-9562-0B43B682F2C5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{05E56CDB-7E33-41D1-9562-0B43B682F2C5}.Debug|x64.Build.0 = Debug|Any CPU
+		{05E56CDB-7E33-41D1-9562-0B43B682F2C5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{05E56CDB-7E33-41D1-9562-0B43B682F2C5}.Debug|x86.Build.0 = Debug|Any CPU
+		{05E56CDB-7E33-41D1-9562-0B43B682F2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E56CDB-7E33-41D1-9562-0B43B682F2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E56CDB-7E33-41D1-9562-0B43B682F2C5}.Release|x64.ActiveCfg = Release|Any CPU
+		{05E56CDB-7E33-41D1-9562-0B43B682F2C5}.Release|x64.Build.0 = Release|Any CPU
+		{05E56CDB-7E33-41D1-9562-0B43B682F2C5}.Release|x86.ActiveCfg = Release|Any CPU
+		{05E56CDB-7E33-41D1-9562-0B43B682F2C5}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7623751-B2FD-4768-8E44-6C151BFDD9BE}
+	EndGlobalSection
+EndGlobal

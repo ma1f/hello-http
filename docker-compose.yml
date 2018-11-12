@@ -1,0 +1,15 @@
+version: '3'
+services:
+  hello-http:
+    build: ./
+    image: malf/hello-http
+    deploy:
+      replicas: 3
+    ports:
+      - 8008:80
+      - 58008:443
+    environment:
+      - HelloHttp:Output=Hello world...
+    #volumes:
+      #- ~/.dotnet/https:/root/.ssl
+      #- ~/.dotnet/https:/var/ssl

@@ -1,0 +1,20 @@
+version: '3'
+services:
+  hello-http:
+    build: ./
+    image: malf/hello-http
+    deploy:
+      replicas: 3
+    ports:
+      - 8008:80
+      - 58008:443
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - HelloHttp:Output=Hello world...
+      - ASPNETCORE_URLS=http://+:80;https://+:443
+      - Kestrel:Certificates:Default:Path=c:/https/local.pfx
+      - Kestrel:Certificates:Default:Password=crypticpwd
+      - Kestrel:Certificates:Default:AllowInvalid=true
+    volumes:
+      - ${USERPROFILE}/.dotnet/https:c:/https
+      
